@@ -34,8 +34,6 @@
                 <form action="DelProduct.php" method="POST">
                 <h2>Products</h2>
                 <input type="text" name="Productname" placeholder="Toy">
-                <input type="text" name="Type" placeholder="Type">
-                <input type="text" name="Price" placeholder="Price">
                 <button type="Delete">Delete</button>
             </form>
             <table class="table table-striped table-primary">
