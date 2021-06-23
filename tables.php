@@ -28,16 +28,15 @@
         <div class="container">
             <h1 style = "text-align: center; margin-top: 10px;">ATN Management Dashboard</h1>
             <form action="login.html" method = "POST">
+              <button style="margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm" id="logout-button" name="logout-button">Log out</button>              
+            </form>
+
                 <form action="AddProduct.php" method="POST">
                 <h2>Products</h2>
                 <input type="text" name="Productname" placeholder="Toy">
                 <input type="text" name="Type" placeholder="Type">
                 <input type="text" name="Price" placeholder="Price">
                 <button type="Delete">Delete</button>
-            </form>
-              <button style="margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm" id="logout-button" name="logout-button">Log out</button>
-              <button style="margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm" id="delete-button" name="delete-button">Delete</button>
-              
             </form>
             <table class="table table-striped table-primary">
                 <thead>
