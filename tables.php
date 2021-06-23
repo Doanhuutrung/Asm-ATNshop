@@ -29,8 +29,8 @@
             <h1 style = "text-align: center; margin-top: 10px;">ATN Management Dashboard</h1>
             <form action="login.html" method = "POST">
               <button style="margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm" id="logout-button" name="logout-button">Log out</button>
-              <button style="margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm" id="edit-button" name="edit-button">Edit</button>
-              <button style="margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm" id="delete-button" name="delete-button">Delete</button>
+               Edit :<input type="text" name="name"/><br/> <button>Edit</button> 
+               Delete :<input type="text" name="name"/><br/> <button>Delete</button>  
               
             </form>
             <table class="table table-striped table-primary">
