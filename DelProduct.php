@@ -14,7 +14,7 @@
 
     }
     $query = "DELETE FROM product (product_name, product_type, price) 
-    VALUES('$product_name', '$product_type', '$price');";
+    Where [condition]";
     $result = pg_query($connect, $query);
     if ($result) {
       echo "<script>alert('Record deleted succesfully!, Refresh');</script>";
