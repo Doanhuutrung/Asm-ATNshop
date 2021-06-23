@@ -31,7 +31,7 @@
               <button style="margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm" id="logout-button" name="logout-button">Log out</button>              
             </form>
 
-                <form action="AddProduct.php" method="POST">
+                <form action="DelProduct.php" method="POST">
                 <h2>Products</h2>
                 <input type="text" name="Productname" placeholder="Toy">
                 <input type="text" name="Type" placeholder="Type">
