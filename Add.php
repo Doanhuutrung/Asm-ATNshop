@@ -34,6 +34,11 @@
                 <input type="text" name="Price" placeholder="Price">
                 <button type="Add">Add</button>
             </form>
+                <form action="Del.php" method="POST">
+                <h2>Products</h2>
+                <input type="text" name="Productname" placeholder="Toy">             
+                <button type="Delete">Delete</button>
+            </form>
         </div>
         <table class="table table-striped table-primary">
                 <thead>
