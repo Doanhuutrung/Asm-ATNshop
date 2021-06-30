@@ -8,19 +8,17 @@
      if ($connect === false) {
       die("ERROR: Something went wrong with connection!");
     } else {
-      $product_name = $_POST['Productname'];
-      $product_type = $_POST['Type'];
       $price = $_POST['Price'];
 
     }
     $query = "DELETE FROM product 
-    Where Productname = $product_name";
+    Where product_name = $product_name";
     $result = pg_query($connect, $query);
     if ($result) {
       echo "<script>alert('Record deleted succesfully!, Refresh');</script>";
       header('refresh: 3; url=tables.php');
     } else {
-      echo ("ERROR + $query") . pg_errormessage($query);
+      echo ("ERROR");
     }
     pg_close($connect);
 
